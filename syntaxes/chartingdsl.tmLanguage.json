@@ -1,0 +1,8 @@
+{
+  "scopeName": "source.chartingdsl",
+  "patterns": [
+    { "match": "chart|type|data|overlay|style|annotate|box_size|reversal", "name": "keyword.control.chartingdsl" },
+    { "match": "\"[^\"]*\"", "name": "string.quoted.double.chartingdsl" },
+    { "match": "#.*$", "name": "comment.line.number-sign.chartingdsl" }
+  ]
+}
